@@ -6,11 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class etudiant extends Model
 {
- protected $fillable=[
-'clientname',
-'clientnumber',
-'studentname',
-'studentlevel'
-
- ];
+protected $fillable = [
+    'clientname',
+    'clientnumber',
+    'studentname',
+    'studentlevel',
+    'amount',          
+    'payment_method', 
+    'payment_proof',   
+    'payment_date'    
+];
 }
